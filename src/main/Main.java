@@ -43,7 +43,7 @@ public class Main {
 
     public static void main(String[] args) {
         // "label" to access it over anywhere.
-        loop:
+        // loop:
         while (true) {
             System.out.println("------- Proceed actions :  -------");
             System.out.print("1 add new Employee\n");
@@ -77,7 +77,7 @@ public class Main {
 
         System.out.print("Enter name (he/she) : ");
         in.nextLine(); // to bypass the line.
-        String name = in.nextLine();    //  Reads the full name, including spaces
+        String name = in.nextLine(); // Reads the full name, including spaces
 
         System.out.printf("Enter role of %s : ", name);
         String role = in.next();
@@ -85,7 +85,8 @@ public class Main {
         System.out.println("Add ? yes(1) / no(2) : ");
         int choice = in.nextInt();
 
-        if (choice != 1) return;
+        if (choice != 1)
+            return;
         Employee emp = new Employee();
         emp.name = name;
         emp.role = role;
