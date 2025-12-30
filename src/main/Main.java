@@ -43,7 +43,7 @@ public class Main {
 
     public static void main(String[] args) {
         // "label" to access it over anywhere.
-        // loop:
+        loop:
         while (true) {
             System.out.println("------- Proceed actions :  -------");
             System.out.print("1 add new Employee\n");
